@@ -1,0 +1,1168 @@
+INFO: 2024/06/30 00:18:08 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 00:18:08 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:08 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:08 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:08 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:21 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 00:18:21 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:21 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:21 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:21 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:23 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:23 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:23 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:18:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:26 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:30 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:30 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:30 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:18:31 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:31 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:31 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:32 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:37 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:37 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:37 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:38 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:18:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:44 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:44 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:45 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:18:46 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:46 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:46 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:48 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:51 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:51 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:51 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:51 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:51 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:53 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:18:53 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:18:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:18:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:18:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:18:58 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:18:58 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:18:59 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:00 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:01 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:01 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:01 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:04 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:05 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:05 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:06 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:06 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:06 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:08 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:09 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:11 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:11 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:11 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:12 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:12 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:15 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:15 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:16 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:16 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:16 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:19 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:19 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:20 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:21 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:21 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:21 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:23 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:25 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:26 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:26 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:30 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:31 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:31 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:31 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:31 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:33 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:34 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:36 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:37 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:41 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:41 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:42 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:45 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:46 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:46 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:46 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:47 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:48 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:48 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:51 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:51 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:51 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:52 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:19:52 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:55 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:19:55 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:19:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:19:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:19:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:19:58 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:19:59 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:01 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:01 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:01 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:02 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:02 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:03 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:06 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:06 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:06 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:07 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:09 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:09 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:09 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:11 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:11 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:11 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:14 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:14 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:16 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:16 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:16 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:16 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:16 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:19 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:21 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:21 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:21 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:22 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:23 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:23 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:25 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:29 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:30 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:30 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:30 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:31 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:31 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:31 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:35 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:37 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:37 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:37 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:40 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:44 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:44 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:44 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:46 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:46 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:46 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:46 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:51 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:51 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:51 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:51 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:51 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:51 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:52 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:20:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:20:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:20:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:20:56 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:20:58 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:20:58 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:20:59 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:21:01 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:01 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:01 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:02 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:05 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:21:05 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:21:06 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:06 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:06 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:06 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:21:07 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:11 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:11 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:11 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:12 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:21:12 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:13 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:21:14 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:21:16 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:16 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:16 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:18 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:19 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:21:20 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:21:21 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:21 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:21 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:21 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:21:23 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:25 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 00:21:25 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:21:25 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:21:25 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:21:26 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:21:27 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:21:27 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:21:28 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:22:25 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:22:25 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:22:25 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:22:26 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:22:29 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:22:30 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:22:30 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:23:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:23:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:23:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:23:26 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:23:32 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:23:32 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:23:33 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:24:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:24:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:24:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:24:27 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:24:34 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:24:34 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:24:35 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:25:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:25:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:25:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:25:27 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:25:36 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:25:36 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:25:38 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:26:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:26:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:26:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:26:27 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:26:38 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:26:38 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:26:40 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:27:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:27:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:27:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:27:27 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:27:40 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:27:40 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:27:42 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:28:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:28:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:28:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:28:28 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:28:42 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:28:42 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:28:45 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:29:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:29:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:29:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:29:28 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:29:44 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:29:44 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:29:47 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:30:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:30:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:30:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:30:28 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:30:46 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:30:46 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:30:49 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:31:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:31:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:31:26 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 00:31:29 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 00:31:48 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:31:48 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:31:52 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 00:32:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:32:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:32:26 logger.go:24: Service is running: postgresql
+ERROR: 2024/06/30 00:32:34 logger.go:28: Failed to connect to port: 5440 on IP: 198.50.124.13 dial tcp 198.50.124.13:5440: i/o timeout
+INFO: 2024/06/30 00:32:34 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 0
+INFO: 2024/06/30 00:32:50 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:32:50 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:32:55 logger.go:24: Availability for ip: 198.50.124.13 0
+INFO: 2024/06/30 00:33:26 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 00:33:26 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 00:33:26 logger.go:24: Service is running: postgresql
+ERROR: 2024/06/30 00:33:39 logger.go:28: Failed to connect to port: 5440 on IP: 198.50.124.13 dial tcp 198.50.124.13:5440: i/o timeout
+INFO: 2024/06/30 00:33:39 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 0
+INFO: 2024/06/30 00:33:52 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 00:33:52 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 00:33:58 logger.go:24: Availability for ip: 198.50.124.13 0
+INFO: 2024/06/30 15:08:25 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:08:25 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:08:25 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:08:25 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:08:26 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:08:27 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:08:27 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:08:28 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:08:41 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:08:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:08:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:08:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:08:41 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:08:43 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:08:43 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:08:44 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:09:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:09:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:09:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:09:42 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:09:45 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:09:45 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:09:46 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:10:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:10:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:10:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:10:42 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:10:47 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:10:47 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:10:49 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:11:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:11:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:11:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:11:42 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:11:49 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:11:49 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:11:51 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:12:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:12:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:12:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:12:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:12:51 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:12:52 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:12:53 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:13:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:13:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:13:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:13:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:13:54 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:13:54 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:13:56 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:14:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:14:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:14:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:14:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:14:56 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:14:56 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:14:58 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:15:11 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:15:11 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:15:11 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:15:11 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:15:11 logger.go:24: Going to dump
+INFO: 2024/06/30 15:15:11 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:15:13 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:15:13 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:15:14 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:16:36 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:16:36 logger.go:24: Going to dump
+INFO: 2024/06/30 15:17:16 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:17:16 logger.go:24: Going to dump
+INFO: 2024/06/30 15:17:16 logger.go:24: MonitoringModule ended host=localhost user=postgres password=061297 dbname=monitoringmodule
+INFO: 2024/06/30 15:18:38 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:18:38 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:18:38 logger.go:28: exit status 1
+INFO: 2024/06/30 15:18:38 logger.go:24: 
+INFO: 2024/06/30 15:18:38 logger.go:24: MonitoringModule ended host=localhost user=postgres password=061297 dbname=monitoringmodule
+INFO: 2024/06/30 15:18:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:18:52 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:18:52 logger.go:28: exit status 1
+INFO: 2024/06/30 15:18:52 logger.go:24: 
+INFO: 2024/06/30 15:19:45 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:19:45 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:19:45 logger.go:28: exit status 1
+INFO: 2024/06/30 15:19:45 logger.go:24: 
+INFO: 2024/06/30 15:19:54 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:19:54 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:19:54 logger.go:28: exit status 1
+INFO: 2024/06/30 15:19:54 logger.go:24: 
+INFO: 2024/06/30 15:20:48 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:20:48 logger.go:24: Going to dump
+INFO: 2024/06/30 15:20:49 logger.go:24: monitoringmodule_1719741048.sql.tar.gz
+INFO: 2024/06/30 15:21:15 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:21:15 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:21:15 logger.go:28: exit status 1
+INFO: 2024/06/30 15:21:15 logger.go:24: 
+INFO: 2024/06/30 15:21:31 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:21:31 logger.go:24: Going to dump
+ERROR: 2024/06/30 15:21:31 logger.go:28: exit status 1
+INFO: 2024/06/30 15:21:31 logger.go:24: 
+INFO: 2024/06/30 15:21:47 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:21:47 logger.go:24: Going to dump
+INFO: 2024/06/30 15:21:47 logger.go:24: monitoringmodule_1719741107.sql.tar.gz
+INFO: 2024/06/30 15:22:01 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:22:01 logger.go:24: Going to dump
+INFO: 2024/06/30 15:22:01 logger.go:24: monitoringmodule_1719741121.sql.tar.gz
+INFO: 2024/06/30 15:22:38 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:22:39 logger.go:24: Going to dump
+INFO: 2024/06/30 15:22:39 logger.go:24: monitoringmodule_1719741159.sql.tar.gz
+INFO: 2024/06/30 15:22:41 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:22:41 logger.go:24: Going to dump
+INFO: 2024/06/30 15:22:41 logger.go:24: monitoringmodule_1719741161.sql.tar.gz
+INFO: 2024/06/30 15:23:28 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:23:28 logger.go:24: Going to dump
+INFO: 2024/06/30 15:23:28 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:23:28 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:23:28 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:23:28 logger.go:24: monitoringmodule_1719741208.sql.tar.gz
+INFO: 2024/06/30 15:23:39 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:23:39 logger.go:24: Going to dump
+INFO: 2024/06/30 15:23:39 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:23:39 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:23:39 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:23:39 logger.go:24: monitoringmodule_1719741219.sql.tar.gz
+INFO: 2024/06/30 15:23:39 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:23:41 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:23:41 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:23:41 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:23:42 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:23:42 logger.go:24: Going to dump
+INFO: 2024/06/30 15:23:42 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:23:42 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:23:42 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:23:42 logger.go:24: monitoringmodule_1719741222.sql.tar.gz
+INFO: 2024/06/30 15:23:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:23:44 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:23:44 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:23:45 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:23:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:23:52 logger.go:24: Going to dump
+INFO: 2024/06/30 15:23:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:23:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:23:52 logger.go:24: Service is running: postgresql
+ERROR: 2024/06/30 15:23:52 logger.go:28: exit status 1
+INFO: 2024/06/30 15:23:52 logger.go:24: 
+INFO: 2024/06/30 15:23:53 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:23:54 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:23:54 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:23:55 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:24:36 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:24:36 logger.go:24: Going to dump
+INFO: 2024/06/30 15:24:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:24:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:24:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:24:36 logger.go:24: monitoringmodule_1719741276.sql.tar.gz
+INFO: 2024/06/30 15:24:36 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:24:38 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:24:38 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:24:38 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:25:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:25:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:25:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:25:36 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:25:40 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:25:40 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:25:41 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:26:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:26:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:26:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:26:37 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:26:42 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:26:42 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:26:43 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:27:36 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:27:36 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:27:36 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:27:37 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:27:44 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:27:44 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:27:45 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:28:20 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:28:20 logger.go:24: Going to dump
+INFO: 2024/06/30 15:28:20 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:28:20 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:28:20 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:28:20 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/bkp_monitoringmodule_1719741500.sql.tar.gz
+INFO: 2024/06/30 15:28:20 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:28:22 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:28:22 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:28:23 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:29:20 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:29:20 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:29:20 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:29:21 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:29:24 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:29:24 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:29:25 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:30:20 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:30:20 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:30:20 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:30:21 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:30:26 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:30:26 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:30:27 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:31:20 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:31:20 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:31:20 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:31:21 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:31:28 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:31:28 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:31:30 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:31:46 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:31:46 logger.go:24: Going to dump
+INFO: 2024/06/30 15:31:46 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:31:46 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:31:46 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:31:47 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/bkp_.sql.tar.gzmonitoringmodule_1719741706.sql.tar.gz
+INFO: 2024/06/30 15:31:47 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:31:48 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:31:48 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:31:49 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:32:46 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:32:46 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:32:46 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:32:47 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:32:50 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:32:51 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:32:51 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:33:05 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:33:05 logger.go:24: Going to dump
+INFO: 2024/06/30 15:33:05 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:33:05 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:33:05 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:33:06 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/bkp1.sql.tar.gzmonitoringmodule_1719741785.sql.tar.gz
+INFO: 2024/06/30 15:33:06 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:33:07 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:33:07 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:33:08 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:34:05 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:34:05 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:34:05 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:34:06 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:34:09 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:34:09 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:34:10 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:35:05 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:35:05 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:35:05 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:35:06 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:35:11 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:35:12 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:35:13 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:35:14 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:35:14 logger.go:24: Going to dump
+INFO: 2024/06/30 15:35:14 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:35:14 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:35:14 logger.go:24: Service is running: postgresql
+ERROR: 2024/06/30 15:35:15 logger.go:28: rename monitoringmodule_1719741914.sql.tar.gz /home/dharunvs/Documents/serverMonitoring/bkps/bkp1.sql.tar.gz: no such file or directory
+INFO: 2024/06/30 15:35:15 logger.go:24: 
+INFO: 2024/06/30 15:35:15 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:35:16 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:35:16 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:35:17 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:35:27 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:35:28 logger.go:24: Going to dump
+INFO: 2024/06/30 15:35:28 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:35:28 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:35:28 logger.go:24: Service is running: postgresql
+ERROR: 2024/06/30 15:35:28 logger.go:28: rename monitoringmodule_1719741928.sql.tar.gz /home/dharunvs/Documents/serverMonitoring/bkps/bkp1.sql.tar.gz: no such file or directory
+INFO: 2024/06/30 15:35:28 logger.go:24: 
+INFO: 2024/06/30 15:35:28 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:35:30 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:35:30 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:35:30 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:35:41 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:35:41 logger.go:24: Going to dump
+INFO: 2024/06/30 15:35:41 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:35:41 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:35:41 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:35:41 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/bkp1.sql.tar.gzmonitoringmodule_1719741941.sql.tar.gz
+INFO: 2024/06/30 15:35:41 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:35:43 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:35:43 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:35:43 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:36:32 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:36:32 logger.go:24: Going to dump
+INFO: 2024/06/30 15:36:33 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:36:33 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:36:33 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:36:33 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkpsmonitoringmodule_1719741992.sql.tar.gz
+INFO: 2024/06/30 15:36:33 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:36:35 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:36:35 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:36:35 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:36:43 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:36:43 logger.go:24: Going to dump
+INFO: 2024/06/30 15:36:43 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:36:43 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:36:43 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:36:43 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/_monitoringmodule_1719742003.sql.tar.gz
+INFO: 2024/06/30 15:36:43 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:36:45 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:36:45 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:36:46 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:36:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:36:52 logger.go:24: Going to dump
+INFO: 2024/06/30 15:36:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:36:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:36:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:36:52 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/monitoringmodule_1719742012.sql.tar.gz
+INFO: 2024/06/30 15:36:52 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:36:54 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:36:54 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:36:54 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:37:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:37:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:37:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:37:52 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:37:56 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:37:56 logger.go:24: Going to dump
+INFO: 2024/06/30 15:37:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:37:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:37:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:37:56 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/monitoringmodule_1719742076.sql.tar.gz
+INFO: 2024/06/30 15:37:56 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:37:58 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:37:58 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:37:58 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:38:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:38:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:38:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:38:57 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:39:00 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:39:00 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:39:00 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:39:56 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:39:56 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:39:56 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:39:57 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:40:02 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:40:02 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:40:03 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:40:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:40:52 logger.go:24: Going to dump
+INFO: 2024/06/30 15:40:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:40:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:40:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:40:52 logger.go:24: /home/dharunvs/Documents/serverMonitoring/bkps/monitoringmodule_1719742252.sql.tar.gz
+INFO: 2024/06/30 15:40:52 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:40:54 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:40:54 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:40:54 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:41:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:41:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:41:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:41:52 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:41:56 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:41:56 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:41:57 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:42:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:42:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:42:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:42:53 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:42:58 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:42:58 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:42:59 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:43:52 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:43:52 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:43:52 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:43:53 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:44:00 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:44:00 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:44:01 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:44:40 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:44:40 logger.go:24: Going to dump
+INFO: 2024/06/30 15:44:40 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:44:40 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:44:40 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:44:40 logger.go:24: exit status 1
+INFO: 2024/06/30 15:44:41 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:44:42 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:44:42 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:44:43 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:45:16 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:45:16 logger.go:24: Going to restore
+INFO: 2024/06/30 15:45:16 logger.go:24: Port Availability for ip: 127.1.0.7 port: 5432 1
+INFO: 2024/06/30 15:45:16 logger.go:24: Port Availability for ip: localhost port: 5432 1
+INFO: 2024/06/30 15:45:16 logger.go:24: Service is running: postgresql
+INFO: 2024/06/30 15:45:16 logger.go:24: exit status 1
+INFO: 2024/06/30 15:45:16 logger.go:24: Port Availability for ip: 198.50.124.13 port: 5440 1
+INFO: 2024/06/30 15:45:18 logger.go:24: Availability for ip: localhost 1
+INFO: 2024/06/30 15:45:18 logger.go:24: Availability for ip: 127.1.0.7 1
+INFO: 2024/06/30 15:45:18 logger.go:24: Availability for ip: 198.50.124.13 1
+INFO: 2024/06/30 15:45:48 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:45:48 logger.go:24: Going to restore
+INFO: 2024/06/30 15:45:48 logger.go:24: exit status 1
+INFO: 2024/06/30 15:46:24 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:46:24 logger.go:24: Going to restore
+INFO: 2024/06/30 15:46:24 logger.go:24: pg_restore: while PROCESSING TOC:
+pg_restore: from TOC entry 209; 1259 25997 TABLE text postgres
+pg_restore: error: could not execute query: ERROR:  table "text" does not exist
+Command was: DROP TABLE public.text;
+
+INFO: 2024/06/30 15:46:24 logger.go:24: exit status 1
+INFO: 2024/06/30 15:49:01 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:49:01 logger.go:24: Going to restore
+INFO: 2024/06/30 15:49:01 logger.go:24: pg_restore: error: connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "monitoringmodule" does not exist
+
+INFO: 2024/06/30 15:49:01 logger.go:24: exit status 1
+INFO: 2024/06/30 15:49:23 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:49:23 logger.go:24: Going to restore
+INFO: 2024/06/30 15:49:23 logger.go:24: pg_restore: while PROCESSING TOC:
+pg_restore: from TOC entry 209; 1259 25997 TABLE text postgres
+pg_restore: error: could not execute query: ERROR:  table "text" does not exist
+Command was: DROP TABLE public.text;
+
+INFO: 2024/06/30 15:49:23 logger.go:24: exit status 1
+INFO: 2024/06/30 15:50:44 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:50:44 logger.go:24: Going to restore
+INFO: 2024/06/30 15:50:44 logger.go:24: pg_restore: while PROCESSING TOC:
+pg_restore: from TOC entry 209; 1259 25997 TABLE text postgres
+pg_restore: error: could not execute query: ERROR:  table "text" does not exist
+Command was: DROP TABLE public.text;
+
+INFO: 2024/06/30 15:50:44 logger.go:24: exit status 1
+INFO: 2024/06/30 15:51:16 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 15:51:16 logger.go:24: Going to restore
+INFO: 2024/06/30 15:51:17 logger.go:24: <nil>
+INFO: 2024/06/30 16:05:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:05:52 logger.go:24: pq: database "monitoringmodule" does not exist
+INFO: 2024/06/30 16:06:47 logger.go:24: Starting MonitoringModule
+ERROR: 2024/06/30 16:06:47 logger.go:28: getDatabase failed: pq: database "monitoringmodule" does not exist
+INFO: 2024/06/30 16:06:47 logger.go:24: pq: database "monitoringmodule" does not exist
+INFO: 2024/06/30 16:07:14 logger.go:24: Starting MonitoringModule
+ERROR: 2024/06/30 16:07:14 logger.go:28: create database failed postgres pq: database "postgres" already exists
+INFO: 2024/06/30 16:07:14 logger.go:24: pq: database "postgres" already exists
+INFO: 2024/06/30 16:07:35 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:07:37 logger.go:24: Going to restore
+INFO: 2024/06/30 16:07:37 logger.go:24: pg_restore: while INITIALIZING:
+pg_restore: error: could not execute query: ERROR:  role "monitoringmodule" does not exist
+Command was: SET ROLE monitoringmodule;
+
+INFO: 2024/06/30 16:07:37 logger.go:24: exit status 1
+INFO: 2024/06/30 16:12:25 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:12:25 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:12:25 logger.go:28: create database failed monitoringmodule pq: database "monitoringmodule" already exists
+ERROR: 2024/06/30 16:12:25 logger.go:28: Error in DumpandRestore restore: pq: database "monitoringmodule" already exists
+ERROR: 2024/06/30 16:12:25 logger.go:28: pq: database "monitoringmodule" already exists
+INFO: 2024/06/30 16:12:25 logger.go:24: pq: database "monitoringmodule" already exists
+INFO: 2024/06/30 16:12:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:12:52 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:12:52 logger.go:28: create database failed monitoringmodule pq: syntax error at or near "NOT"
+ERROR: 2024/06/30 16:12:52 logger.go:28: Error in DumpandRestore restore: pq: syntax error at or near "NOT"
+ERROR: 2024/06/30 16:12:52 logger.go:28: pq: syntax error at or near "NOT"
+INFO: 2024/06/30 16:12:52 logger.go:24: pq: syntax error at or near "NOT"
+INFO: 2024/06/30 16:15:29 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:15:29 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:15:29 logger.go:28: create database failed monitoringmodule pq: syntax error at end of input
+ERROR: 2024/06/30 16:15:29 logger.go:28: Error in DumpandRestore restore: pq: syntax error at end of input
+ERROR: 2024/06/30 16:15:29 logger.go:28: pq: syntax error at end of input
+INFO: 2024/06/30 16:15:29 logger.go:24: pq: syntax error at end of input
+INFO: 2024/06/30 16:16:32 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:16:32 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:16:32 logger.go:28: exit status 1
+INFO: 2024/06/30 16:16:32 logger.go:24: exit status 1
+INFO: 2024/06/30 16:17:00 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:17:00 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:17:00 logger.go:28: exit status 1
+INFO: 2024/06/30 16:17:00 logger.go:24: exit status 1
+INFO: 2024/06/30 16:18:01 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:18:01 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:18:01 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:18:01 logger.go:24: exit status 1
+INFO: 2024/06/30 16:18:23 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:18:23 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:18:23 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 16:18:23 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:18:23 logger.go:24: exit status 1
+INFO: 2024/06/30 16:20:41 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:20:41 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:20:41 logger.go:28: Error here
+ERROR: 2024/06/30 16:20:41 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 16:20:41 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:20:41 logger.go:24: exit status 1
+INFO: 2024/06/30 16:20:55 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:20:55 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:20:56 logger.go:28: Error here exit status 1
+ERROR: 2024/06/30 16:20:56 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 16:20:56 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:20:56 logger.go:24: exit status 1
+INFO: 2024/06/30 16:21:30 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:21:30 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:21:30 logger.go:28: Error here exit status 1 monitoringmodule_1719744690.sql.tar.gz
+ERROR: 2024/06/30 16:21:30 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 16:21:30 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:21:30 logger.go:24: exit status 1
+INFO: 2024/06/30 16:23:32 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:23:32 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:23:33 logger.go:28: create database failed monitoringmodule pq: syntax error at end of input
+ERROR: 2024/06/30 16:23:33 logger.go:28: Error in DumpandRestore restore: pq: syntax error at end of input
+ERROR: 2024/06/30 16:23:33 logger.go:28: Error pq: syntax error at end of input
+INFO: 2024/06/30 16:23:33 logger.go:24: pq: syntax error at end of input
+INFO: 2024/06/30 16:23:59 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:23:59 logger.go:24: Going to dump
+ERROR: 2024/06/30 16:23:59 logger.go:28: Error here
+ERROR: 2024/06/30 16:23:59 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 16:23:59 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:23:59 logger.go:24: exit status 1
+INFO: 2024/06/30 16:24:25 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 16:24:25 logger.go:24: Going to dump
+INFO: 2024/06/30 16:24:27 logger.go:24: Going to restore
+INFO: 2024/06/30 16:24:27 logger.go:24: pg_restore: while INITIALIZING:
+pg_restore: error: could not execute query: ERROR:  role "monitoringmodule" does not exist
+Command was: SET ROLE monitoringmodule;
+
+ERROR: 2024/06/30 16:24:27 logger.go:28: Error in DumpandRestore restore: exit status 1
+ERROR: 2024/06/30 16:24:27 logger.go:28: Error exit status 1
+INFO: 2024/06/30 16:24:27 logger.go:24: exit status 1
+INFO: 2024/06/30 17:00:52 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 17:00:52 logger.go:24: Going to dump
+INFO: 2024/06/30 17:00:53 logger.go:24: Going to restore
+INFO: 2024/06/30 17:00:54 logger.go:24: <nil>
+INFO: 2024/06/30 17:54:55 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 17:54:55 logger.go:24: Going to dump
+ERROR: 2024/06/30 17:54:55 logger.go:28: Error here
+ERROR: 2024/06/30 17:54:55 logger.go:28: Error in DumpandRestore dump: exit status 1
+ERROR: 2024/06/30 17:54:55 logger.go:28: Error exit status 1
+INFO: 2024/06/30 17:54:55 logger.go:24: exit status 1
+INFO: 2024/06/30 17:55:18 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 17:55:18 logger.go:24: Going to dump
+ERROR: 2024/06/30 17:55:19 logger.go:28: Error in DumpandRestore restore: dial tcp 173.212.237.62:5432: connect: connection refused
+ERROR: 2024/06/30 17:55:19 logger.go:28: Error dial tcp 173.212.237.62:5432: connect: connection refused
+INFO: 2024/06/30 17:55:19 logger.go:24: dial tcp 173.212.237.62:5432: connect: connection refused
+INFO: 2024/06/30 18:01:10 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:01:10 logger.go:24: Going to dump
+INFO: 2024/06/30 18:01:10 logger.go:24: <nil>
+INFO: 2024/06/30 18:01:13 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:01:13 logger.go:24: Going to dump
+INFO: 2024/06/30 18:01:14 logger.go:24: <nil>
+INFO: 2024/06/30 18:04:59 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:04:59 logger.go:24: Going to dump
+INFO: 2024/06/30 18:04:59 logger.go:24: <nil>
+INFO: 2024/06/30 18:06:16 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:06:16 logger.go:24: Going to dump
+INFO: 2024/06/30 18:06:17 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 18:06:20 logger.go:24: <nil>
+INFO: 2024/06/30 18:30:08 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:30:08 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:30:08 logger.go:28: Error in ssh connection ssh: handshake failed: EOF
+INFO: 2024/06/30 18:30:08 logger.go:24: <nil>
+INFO: 2024/06/30 18:31:01 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:31:01 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:31:01 logger.go:28: Error in ssh connection ssh: handshake failed: EOF
+ERROR: 2024/06/30 18:31:01 logger.go:28: Error in DumpandRestore dump: ssh: handshake failed: EOF 
+ERROR: 2024/06/30 18:31:01 logger.go:28: Error ssh: handshake failed: EOF
+INFO: 2024/06/30 18:31:01 logger.go:24: ssh: handshake failed: EOF
+INFO: 2024/06/30 18:37:11 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:37:12 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:37:12 logger.go:28: Error in ssh connection ssh: handshake failed: EOF
+ERROR: 2024/06/30 18:37:12 logger.go:28: Error in DumpandRestore dump: ssh: handshake failed: EOF 
+ERROR: 2024/06/30 18:37:12 logger.go:28: Error ssh: handshake failed: EOF
+INFO: 2024/06/30 18:37:12 logger.go:24: ssh: handshake failed: EOF
+INFO: 2024/06/30 18:42:00 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:42:00 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:42:00 logger.go:28: Error in ssh connection dial tcp 127.0.0.1:22: connect: connection refused
+ERROR: 2024/06/30 18:42:00 logger.go:28: Error dial tcp 127.0.0.1:22: connect: connection refused
+INFO: 2024/06/30 18:42:00 logger.go:24: dial tcp 127.0.0.1:22: connect: connection refused
+INFO: 2024/06/30 18:42:20 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:42:20 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:42:25 logger.go:28: Error in ssh connection ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+ERROR: 2024/06/30 18:42:25 logger.go:28: Error ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+INFO: 2024/06/30 18:42:25 logger.go:24: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+INFO: 2024/06/30 18:42:50 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:42:50 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:42:51 logger.go:28: Error in ssh connection ssh: handshake failed: EOF
+ERROR: 2024/06/30 18:42:51 logger.go:28: Error ssh: handshake failed: EOF
+INFO: 2024/06/30 18:42:51 logger.go:24: ssh: handshake failed: EOF
+INFO: 2024/06/30 18:44:51 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:44:51 logger.go:24: Going to dump
+INFO: 2024/06/30 18:44:54 logger.go:24: <nil>
+INFO: 2024/06/30 18:45:14 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:45:14 logger.go:24: Going to dump
+INFO: 2024/06/30 18:45:18 logger.go:24: <nil>
+INFO: 2024/06/30 18:45:47 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:45:47 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:45:52 logger.go:28: Error in ssh connection ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+ERROR: 2024/06/30 18:45:52 logger.go:28: Error ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+INFO: 2024/06/30 18:45:52 logger.go:24: ssh: handshake failed: ssh: unable to authenticate, attempted methods [none password], no supported methods remain
+INFO: 2024/06/30 18:46:05 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:46:05 logger.go:24: Going to dump
+ERROR: 2024/06/30 18:46:06 logger.go:28: Error in ssh connection ssh: handshake failed: EOF
+ERROR: 2024/06/30 18:46:06 logger.go:28: Error ssh: handshake failed: EOF
+INFO: 2024/06/30 18:46:06 logger.go:24: ssh: handshake failed: EOF
+INFO: 2024/06/30 18:51:30 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:51:30 logger.go:24: Going to dump
+INFO: 2024/06/30 18:51:33 logger.go:24: <nil>
+INFO: 2024/06/30 18:52:56 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:52:56 logger.go:24: Going to dump
+INFO: 2024/06/30 18:53:00 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+ERROR: 2024/06/30 18:53:03 logger.go:28: Error in DumpandRestore restore: pq: role "vs_test_database" already exists
+ERROR: 2024/06/30 18:53:03 logger.go:28: Error pq: role "vs_test_database" already exists
+INFO: 2024/06/30 18:53:03 logger.go:24: pq: role "vs_test_database" already exists
+INFO: 2024/06/30 18:53:21 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:53:21 logger.go:24: Going to dump
+INFO: 2024/06/30 18:53:24 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+ERROR: 2024/06/30 18:53:28 logger.go:28: Error in DumpandRestore restore: pq: syntax error at or near "NOT"
+ERROR: 2024/06/30 18:53:28 logger.go:28: Error pq: syntax error at or near "NOT"
+INFO: 2024/06/30 18:53:28 logger.go:24: pq: syntax error at or near "NOT"
+INFO: 2024/06/30 18:53:50 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:53:50 logger.go:24: Going to dump
+INFO: 2024/06/30 18:53:55 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 18:53:58 logger.go:24: Going to restore
+INFO: 2024/06/30 18:53:58 logger.go:24: pg_restore: error: could not open input file "/var/lib/postgresql/vs_test_backups/vs_test_database_1719753830.sql.tar.gz": No such file or directory
+
+ERROR: 2024/06/30 18:53:58 logger.go:28: Error in DumpandRestore restore: exit status 1
+ERROR: 2024/06/30 18:53:58 logger.go:28: Error exit status 1
+INFO: 2024/06/30 18:53:58 logger.go:24: exit status 1
+INFO: 2024/06/30 18:55:47 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 18:55:47 logger.go:24: Going to dump
+INFO: 2024/06/30 18:55:51 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 18:55:55 logger.go:24: Going to restore
+INFO: 2024/06/30 18:56:00 logger.go:24: pg_restore: while PROCESSING TOC:
+pg_restore: from TOC entry 209; 1259 26034 TABLE test postgres
+pg_restore: error: could not execute query: ERROR:  table "test" does not exist
+Command was: DROP TABLE public.test;
+
+ERROR: 2024/06/30 18:56:00 logger.go:28: Error in DumpandRestore restore: exit status 1
+ERROR: 2024/06/30 18:56:00 logger.go:28: Error exit status 1
+INFO: 2024/06/30 18:56:00 logger.go:24: exit status 1
+INFO: 2024/06/30 19:07:43 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:07:43 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:07:47 logger.go:28: Error in running command command failed: Process exited with status 1
+stderr: Warning: No existing cluster is suitable as a default target. Please see man pg_wrapper(1) how to specify one.
+pg_restore: error: could not open input file "/home/dharunvs/Documents/serverMonitoring/bkps/vs_test_database_1719754663.sql.tar.gz": No such file or directory
+
+INFO: 2024/06/30 19:07:47 logger.go:24: <nil>
+INFO: 2024/06/30 19:08:36 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:08:36 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:08:40 logger.go:28: Error in running command2 command failed: Process exited with status 1
+stderr: Warning: No existing cluster is suitable as a default target. Please see man pg_wrapper(1) how to specify one.
+pg_restore: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+
+INFO: 2024/06/30 19:08:40 logger.go:24: <nil>
+INFO: 2024/06/30 19:10:24 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:10:24 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:10:29 logger.go:28: Error in running command2 command failed: Process exited with status 1
+stderr: pg_restore: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5440" failed: FATAL:  role "root" does not exist
+
+INFO: 2024/06/30 19:10:29 logger.go:24: <nil>
+INFO: 2024/06/30 19:11:05 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:11:05 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:11:10 logger.go:28: Error in running command2 command failed: Process exited with status 1
+stderr: pg_restore: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5440" failed: FATAL:  Peer authentication failed for user "postgres"
+
+INFO: 2024/06/30 19:11:10 logger.go:24: <nil>
+INFO: 2024/06/30 19:11:28 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:11:28 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:11:33 logger.go:28: Error in running command2 command failed: Process exited with status 1
+stderr: pg_restore: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5440" failed: FATAL:  role "root" does not exist
+
+INFO: 2024/06/30 19:11:33 logger.go:24: <nil>
+INFO: 2024/06/30 19:15:20 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:15:20 logger.go:24: Going to dump
+INFO: 2024/06/30 19:15:24 logger.go:24: <nil>
+INFO: 2024/06/30 19:16:04 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:16:04 logger.go:24: Going to dump
+ERROR: 2024/06/30 19:16:09 logger.go:28: Error in running command2 command failed: Process exited with status 1
+stderr: pg_restore: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5440" failed: FATAL:  database "vs_test_database" does not exist
+
+INFO: 2024/06/30 19:16:09 logger.go:24: <nil>
+INFO: 2024/06/30 19:17:01 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:17:01 logger.go:24: Going to dump
+INFO: 2024/06/30 19:17:04 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 19:17:08 logger.go:24: <nil>
+INFO: 2024/06/30 19:19:49 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:19:49 logger.go:24: Going to dump
+INFO: 2024/06/30 19:19:52 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 19:19:56 logger.go:24: <nil>
+INFO: 2024/06/30 19:26:17 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:26:17 logger.go:24: Going to dump
+INFO: 2024/06/30 19:26:20 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 19:26:24 logger.go:24: <nil>
+INFO: 2024/06/30 19:29:27 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 19:29:27 logger.go:24: Going to dump
+INFO: 2024/06/30 19:29:31 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 19:29:34 logger.go:24: <nil>
+INFO: 2024/06/30 23:22:27 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 23:22:27 logger.go:24: Going to dump
+INFO: 2024/06/30 23:22:31 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 23:22:34 logger.go:24: Going to restore
+INFO: 2024/06/30 23:22:38 logger.go:24: pg_restore: while INITIALIZING:
+pg_restore: error: could not execute query: ERROR:  role "vs_test_database" does not exist
+Command was: SET ROLE vs_test_database;
+
+ERROR: 2024/06/30 23:22:38 logger.go:28: Error in remote database exit status 1
+ERROR: 2024/06/30 23:22:38 logger.go:28: Error exit status 1
+INFO: 2024/06/30 23:22:38 logger.go:24: exit status 1
+INFO: 2024/06/30 23:24:53 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 23:24:53 logger.go:24: Going to dump
+INFO: 2024/06/30 23:24:57 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 23:25:02 logger.go:24: Going to restore
+INFO: 2024/06/30 23:25:10 logger.go:24: <nil>
+INFO: 2024/06/30 23:26:27 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 23:26:27 logger.go:24: Going to dump
+INFO: 2024/06/30 23:26:30 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 23:26:34 logger.go:24: Going to restore
+INFO: 2024/06/30 23:26:36 logger.go:24: pg_restore: error: connection to server at "173.212.237.62", port 5440 failed: FATAL:  database "vs_test_database" does not exist
+
+ERROR: 2024/06/30 23:26:36 logger.go:28: Error in remote database exit status 1
+ERROR: 2024/06/30 23:26:36 logger.go:28: Error exit status 1
+INFO: 2024/06/30 23:26:36 logger.go:24: exit status 1
+INFO: 2024/06/30 23:29:11 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 23:29:11 logger.go:24: Going to dump
+INFO: 2024/06/30 23:29:14 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+ERROR: 2024/06/30 23:29:16 logger.go:28: Error in remote database pq: DROP DATABASE cannot run inside a transaction block
+ERROR: 2024/06/30 23:29:16 logger.go:28: Error pq: DROP DATABASE cannot run inside a transaction block
+INFO: 2024/06/30 23:29:16 logger.go:24: pq: DROP DATABASE cannot run inside a transaction block
+INFO: 2024/06/30 23:29:28 logger.go:24: Starting MonitoringModule
+INFO: 2024/06/30 23:29:28 logger.go:24: Going to dump
+INFO: 2024/06/30 23:29:31 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/06/30 23:29:34 logger.go:24: Going to restore
+INFO: 2024/06/30 23:29:42 logger.go:24: <nil>
+INFO: 2024/07/01 01:59:31 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 01:59:31 logger.go:24: Going to dump
+INFO: 2024/07/01 01:59:35 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/07/01 01:59:40 logger.go:24: Going to restore
+INFO: 2024/07/01 01:59:49 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 01:59:49 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 01:59:51 logger.go:24: Successfully compared
+INFO: 2024/07/01 01:59:51 logger.go:24: <nil>
+INFO: 2024/07/01 02:11:43 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:11:43 logger.go:24: Going to dump
+INFO: 2024/07/01 02:11:46 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:11:46 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:11:48 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:11:48 logger.go:24: <nil>
+INFO: 2024/07/01 02:12:31 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:12:31 logger.go:24: Going to dump
+INFO: 2024/07/01 02:12:34 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:12:34 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:12:36 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:12:36 logger.go:24: <nil>
+INFO: 2024/07/01 02:13:50 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:13:50 logger.go:24: Going to dump
+INFO: 2024/07/01 02:13:53 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:13:53 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:13:55 logger.go:24: Message is test has unequal rows
+INFO: 2024/07/01 02:13:55 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:13:55 logger.go:24: <nil>
+INFO: 2024/07/01 02:14:09 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:14:09 logger.go:24: Going to dump
+INFO: 2024/07/01 02:14:13 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/07/01 02:14:18 logger.go:24: Going to restore
+INFO: 2024/07/01 02:14:26 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:14:26 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:14:28 logger.go:24: Message is 
+INFO: 2024/07/01 02:14:28 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:14:28 logger.go:24: <nil>
+INFO: 2024/07/01 02:56:47 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:56:47 logger.go:24: Going to dump
+INFO: 2024/07/01 02:56:50 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/07/01 02:56:54 logger.go:24: Going to restore
+INFO: 2024/07/01 02:57:02 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:57:02 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:57:04 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:57:04 logger.go:24: <nil>
+INFO: 2024/07/01 02:57:59 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:57:59 logger.go:24: Going to dump
+INFO: 2024/07/01 02:58:02 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:58:02 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:58:04 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:58:04 logger.go:24: <nil>
+INFO: 2024/07/01 02:58:53 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:58:53 logger.go:24: Going to dump
+INFO: 2024/07/01 02:58:57 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:58:57 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:58:59 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:58:59 logger.go:24: <nil>
+INFO: 2024/07/01 02:59:46 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 02:59:46 logger.go:24: Going to dump
+INFO: 2024/07/01 02:59:49 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 02:59:49 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 02:59:50 logger.go:24: Successfully compared
+INFO: 2024/07/01 02:59:50 logger.go:24: <nil>
+INFO: 2024/07/01 03:00:48 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:00:48 logger.go:24: Going to dump
+INFO: 2024/07/01 03:00:51 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:00:52 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 03:00:54 logger.go:24: Successfully compared
+INFO: 2024/07/01 03:00:54 logger.go:24: <nil>
+INFO: 2024/07/01 03:01:26 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:01:26 logger.go:24: Going to dump
+INFO: 2024/07/01 03:01:29 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:01:29 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 03:01:32 logger.go:24: Message is: test has unequal rows | <nil>
+INFO: 2024/07/01 03:01:32 logger.go:24: Successfully compared
+INFO: 2024/07/01 03:01:32 logger.go:24: <nil>
+INFO: 2024/07/01 03:02:02 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:02:02 logger.go:24: Going to dump
+INFO: 2024/07/01 03:02:05 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:02:05 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 03:02:08 logger.go:24: Message is: test has unequal rows | <nil>
+INFO: 2024/07/01 03:02:08 logger.go:24: Successfully compared
+INFO: 2024/07/01 03:02:08 logger.go:24: <nil>
+INFO: 2024/07/01 03:02:19 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:02:19 logger.go:24: Going to dump
+INFO: 2024/07/01 03:02:23 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/07/01 03:02:27 logger.go:24: Going to restore
+INFO: 2024/07/01 03:02:35 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:02:35 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 03:02:38 logger.go:24: Message is:  | <nil>
+INFO: 2024/07/01 03:02:38 logger.go:24: Successfully compared
+INFO: 2024/07/01 03:02:38 logger.go:24: <nil>
+INFO: 2024/07/01 03:31:32 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:31:32 logger.go:24: Going to dump
+INFO: 2024/07/01 03:31:36 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=postgres
+INFO: 2024/07/01 03:31:39 logger.go:24: Going to restore
+INFO: 2024/07/01 03:31:48 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:31:48 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+INFO: 2024/07/01 03:31:50 logger.go:24: Successfully compared
+INFO: 2024/07/01 03:31:50 logger.go:24: <nil>
+INFO: 2024/07/01 03:32:37 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:32:37 logger.go:24: Going to dump
+INFO: 2024/07/01 03:32:40 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:32:40 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+ERROR: 2024/07/01 03:32:43 logger.go:28: Error Error occurred: test has unequal rows
+INFO: 2024/07/01 03:32:43 logger.go:24: Error occurred: test has unequal rows
+INFO: 2024/07/01 03:34:17 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:34:17 logger.go:24: Going to dump
+INFO: 2024/07/01 03:34:21 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:34:22 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+ERROR: 2024/07/01 03:34:24 logger.go:28: Error Error occurred: test has unequal rows
+INFO: 2024/07/01 03:36:33 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:36:33 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=postgres
+INFO: 2024/07/01 03:36:33 logger.go:24: Going to dump
+INFO: 2024/07/01 03:36:36 logger.go:24: Connection string is host=localhost port=5432 user=postgres password=061297 dbname=vs_test_database
+INFO: 2024/07/01 03:36:36 logger.go:24: Connection string is host=173.212.237.62 port=5440 user=postgres password=XyNLLVXwvC4LxrEe dbname=vs_test_database
+ERROR: 2024/07/01 03:36:38 logger.go:28: Error Error occurred: test has unequal rows
+INFO: 2024/07/01 03:36:46 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:36:46 logger.go:24: Going to dump
+ERROR: 2024/07/01 03:36:52 logger.go:28: Error Error occurred: test has unequal rows
+INFO: 2024/07/01 03:37:14 logger.go:24: Starting MonitoringModule
+INFO: 2024/07/01 03:37:14 logger.go:24: Going to dump
+ERROR: 2024/07/01 03:37:20 logger.go:28: Error occurred: test has unequal rows

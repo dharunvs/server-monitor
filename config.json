@@ -1,0 +1,72 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "postgres",
+    "password": "061297",
+    "database": "postgres"
+  },
+  "monitor": {
+    "ports": ["localhost:8080", "localhost:5432"],
+    "servers": ["127.1.0.7", "198.50.124.13"],
+    "services": ["postgresql"]
+  },
+  "monitoring": {
+    "servers": [
+      {
+        "server_ip": "127.1.0.7",
+        "ports": [5432],
+        "services": ["nginx", "postgresql"]
+      },
+      {
+        "server_ip": "198.50.124.13",
+        "ports": [5440],
+        "services": ["nginx", "postgresql"]
+      }
+    ]
+  },
+  "self_monitoring": {
+    "enabled": true,
+    "ports": [5432],
+    "services": ["postgresql"]
+  },
+  "backup": {
+    "source_database": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "061297",
+      "database": "postgres"
+    },
+    "destination_databases": [
+      {
+        "host": "173.212.237.62",
+        "port": 5440,
+        "user": "postgres",
+        "password": "XyNLLVXwvC4LxrEe",
+        "database": "postgres"
+      }
+    ]
+  },
+
+  "logger": {
+    "log_level": "info"
+  },
+  "notifier": {
+    "email": {
+      "recipients": ["admin@example.com"]
+    },
+    "telegram": {
+      "chat_id": "your-telegram-chat-id",
+      "token": "your-telegram-bot-token"
+    }
+  },
+  "interval": {
+    "availability": 60,
+    "port": 60,
+    "service": 60
+  },
+  "settings": {
+    "self_monitoring_enabled": true
+  }
+}
