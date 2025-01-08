@@ -2,21 +2,16 @@
   "database": {
     "host": "localhost",
     "port": 5432,
-    "user": "postgres",
-    "password": "061297",
-    "database": "postgres"
-  },
-  "monitor": {
-    "ports": ["localhost:8080", "localhost:5432"],
-    "servers": ["127.1.0.7", "198.50.124.13"],
-    "services": ["postgresql"]
+    "user": "<your-database-user>",
+    "password": "<your-database-password>",
+    "database": "<your-database-name>"
   },
   "monitoring": {
     "servers": [
       {
         "server_ip": "127.1.0.7",
         "ports": [5432],
-        "services": ["nginx", "postgresql"]
+        "services": ["postgresql"]
       },
       {
         "server_ip": "198.50.124.13",
@@ -34,21 +29,20 @@
     "source_database": {
       "host": "localhost",
       "port": 5432,
-      "user": "postgres",
-      "password": "061297",
-      "database": "postgres"
+      "user": "<your-local-database-user>",
+      "password": "<your-local-database-password>",
+      "database": "<your-local-database-name>"
     },
     "destination_databases": [
       {
         "host": "173.212.237.62",
         "port": 5440,
-        "user": "postgres",
-        "password": "XyNLLVXwvC4LxrEe",
-        "database": "postgres"
+        "user": "<your-remote-database-user>",
+        "password": "<your-remote-database-password>",
+        "database": "<your-remote-database-name>"
       }
     ]
   },
-
   "logger": {
     "log_level": "info"
   },
@@ -62,11 +56,8 @@
     }
   },
   "interval": {
-    "availability": 60,
-    "port": 60,
-    "service": 60
-  },
-  "settings": {
-    "self_monitoring_enabled": true
+    "availability": 10,
+    "port": 10,
+    "service": 10
   }
 }
