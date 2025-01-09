@@ -4,42 +4,46 @@ import (
 	"os"
 	"sync"
 
+	_ "github.com/lib/pq"
+
 	"root/config"
 	"root/connection"
 	"root/logger"
 	"root/monitor"
 	"root/notifier"
-
-	_ "github.com/lib/pq"
 	// "root/backup"
 )
 
+var wg sync.WaitGroup
+
+
 func main() {
-	logger.Info("Starting MonitoringModule")
 	cfg, err := config.LoadConfig("config.json")
 	if err != nil {
-		logger.Error("Error loading config:", err)
+		logger.Error("Error in config.LoadConfig():", err)
 		return
 	}
 
-	notificationChannel := make(chan string)
+	wg.Add(1)
+	go notifier.StartNotifier(&cfg.Notifier.Telegram, &wg)
 
+	
 	db, err := connection.GetDatabase(&cfg.Database)
 	if err != nil {
 		logger.Error(err)
 		os.Exit(1)
 	}
+	logger.Info("Connected to database", cfg.Database)
 	defer db.Close()
 
-	var wg sync.WaitGroup
 
-	wg.Add(3)
-	go notifier.StartNotifier(notificationChannel, &wg)
+	logger.Info("Starting Server Monitor")
+	notifier.NotificationDataChannel <- notifier.CreateNotification("Starting Server Monitor")
 
-	tableChannels := make(map[string]chan string)
-	tableChannels["monitoringdata"] = make(chan string)
+	wg.Add(1)
+	go connection.WriteToMonitoringData(db, &wg)
 
-	// connection.WriteToDB()
+	wg.Add(2)
 	go monitor.StartServerMonitoring(cfg, &wg)
 	go monitor.StartSelfMonitoring(cfg, &wg)
 
@@ -51,6 +55,5 @@ func main() {
 
 	wg.Wait()
 
-	// close(tableChannels["monitoringdata"] )
-	// logger.Info("MonitoringModule ended", connString)
+	logger.Info("Server Monitor ended")
 }

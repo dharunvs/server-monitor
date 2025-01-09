@@ -1,29 +1,46 @@
 package connection
 
 import (
+	"database/sql"
 	"fmt"
 	"sync"
-	"database/sql"
 
-	"root/logger"
 	"root/config"
+	"root/logger"
 )
 
-func WriteToDB(db *sql.DB, table string, dataChannel <-chan string, wg *sync.WaitGroup) {
+type MonitoringData struct {
+	Host		string
+	Type		string
+	Parameter	string
+	Value		string
+}
+
+var MonitoringDataChannel chan MonitoringData
+
+func init () {
+	MonitoringDataChannel = make(chan MonitoringData)
+}
+
+func WriteToDB(db *sql.DB, dataChannel <-chan string, wg *sync.WaitGroup) {
 	defer wg.Done()
 
 	for msg := range dataChannel {
-		_, err := db.Exec("INSERT INTO "+table+" (value) VALUES ($1)", msg)
-		if err != nil {
-			logger.Error("Failed to insert message into "+table+":", err)
-		} else {
-			logger.Info("Message inserted into "+table+":", msg)
-		}
+		logger.Info(fmt.Sprintf("TODO: %v", msg))
 	}
 }
 
-func SelectFromDB() {
-	
+func WriteToMonitoringData(db *sql.DB, wg *sync.WaitGroup) {
+	defer wg.Done()
+
+	query := "INSERT INTO monitoring_data (host, type, parameter, value) VALUES ($1, $2, $3, $4)"
+
+	for data := range MonitoringDataChannel {
+		_, err := db.Exec(query, data.Host, data.Type, data.Parameter, data.Value)
+		if err != nil {
+			logger.Error(fmt.Sprintf("Error in WriteToMonitoringData(): %v", err))
+		}
+	}
 }
 
 

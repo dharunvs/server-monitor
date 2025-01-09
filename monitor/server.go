@@ -1,13 +1,17 @@
 package monitor
 
 import (
+	"fmt"
+	"strconv"
 	"sync"
 	"time"
 
 	"github.com/go-ping/ping"
 
 	"root/config"
+	"root/connection"
 	"root/logger"
+	"root/notifier"
 )
 
 
@@ -35,8 +39,20 @@ func MonitorAvailability(cfg *config.Config, server config.Server, wg *sync.Wait
 
 		if stats.PacketsRecv > 0 {
 			availability = 1
-		} 
+		}
+
+		data := connection.MonitoringData{
+			Host: server.ServerIp,
+			Type: "Server",
+			Parameter: "Availability",
+			Value: strconv.Itoa(availability),
+		}
 		logger.Info("Availability for ip:", server.ServerIp, availability)
+		connection.MonitoringDataChannel <- data;
+
+		if availability == 0 {
+			notifier.NotificationDataChannel <- notifier.CreateNotification(fmt.Sprintf("Server not available: %v", server.ServerIp))
+		}
 
 		time.Sleep(time.Duration(cfg.Interval.Availability) * time.Second)
 	}
