@@ -47,3 +47,10 @@ build using
 ```bash
 go build .
 ```
+
+## Future Scope
+
+- Database backup at regular intervals to configured backup servers
+- Database replication checks at regular intervals to configured fallback servers
+- Database restoration
+- Email notification
