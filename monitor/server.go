@@ -1,15 +1,13 @@
 package monitor
 
 import (
-	"fmt"
-	"time"
 	"sync"
-	"net"
-	"os/exec"
+	"time"
+
 	"github.com/go-ping/ping"
 
-	"root/logger"
 	"root/config"
+	"root/logger"
 )
 
 
@@ -41,48 +39,6 @@ func MonitorAvailability(cfg *config.Config, server config.Server, wg *sync.Wait
 		logger.Info("Availability for ip:", server.ServerIp, availability)
 
 		time.Sleep(time.Duration(cfg.Interval.Availability) * time.Second)
-	}
-}
-
-
-func MonitorPorts(cfg *config.Config, serverIp string, port int, wg *sync.WaitGroup){
-	defer wg.Done()
-	for {
-		status := 0
-		address := fmt.Sprintf("%s:%d", serverIp, port)
-		conn, err := net.DialTimeout("tcp", address, 5*time.Second)
-		if err != nil {
-			logger.Error("Failed to connect to port:", port, "on IP:", serverIp, err)
-		} else {
-			status = 1
-			conn.Close()
-		}
-		logger.Info("Port Availability for ip:", serverIp, "port:", port, status)
-
-		time.Sleep(time.Duration(cfg.Interval.Port) * time.Second)
-	}
-}
-
-
-func MonitorService(cfg *config.Config, serviceName string, wg *sync.WaitGroup) {
-	defer wg.Done()
-	for {
-		cmd := exec.Command("systemctl", "is-active", "--quiet", serviceName)
-		err := cmd.Run()
-		if err != nil {
-			logger.Info("Service is not running:", serviceName)
-			restartCmd := exec.Command("systemctl", "restart", serviceName)
-			err := restartCmd.Run()
-			if err != nil {
-				logger.Error("Failed to restart:", serviceName, err)
-			} else {
-				logger.Info("Service restarted successfully:", serviceName)
-			}
-		} else {
-			logger.Info("Service is running:", serviceName)
-		}
-
-		time.Sleep(time.Duration(cfg.Interval.Service) * time.Second)
 	}
 }
 

@@ -1,16 +1,16 @@
 package main
 
 import (
-	// "database/sql"
+	"os"
 	"sync"
-	// "fmt"
 
-	_ "github.com/lib/pq" 
 	"root/config"
-	"root/logger"
 	"root/connection"
+	"root/logger"
 	"root/monitor"
 	"root/notifier"
+
+	_ "github.com/lib/pq"
 	// "root/backup"
 )
 
@@ -24,10 +24,12 @@ func main() {
 
 	notificationChannel := make(chan string)
 
-	_, err = connection.GetDatabase(&cfg.Database)
+	db, err := connection.GetDatabase(&cfg.Database)
 	if err != nil {
 		logger.Error(err)
+		os.Exit(1)
 	}
+	defer db.Close()
 
 	var wg sync.WaitGroup
 
