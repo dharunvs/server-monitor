@@ -2,65 +2,26 @@ package notifier
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"fmt"
 	"net/http"
-	"sync"
+	"time"
 
 	"root/config"
-	"root/logger"
 )
 
-type Notification struct {
-	Message		string		`json:"message"`
-}
+var client=&http.Client{Timeout:5*time.Second}
 
-var NotificationDataChannel chan Notification
-
-func init () {
-	NotificationDataChannel = make(chan Notification)
-}
-
-func CreateNotification(message string) Notification{
-	return Notification{
-		Message: message,
-	}
-}
-
-func StartNotifier(cfg *config.Telegram,wg *sync.WaitGroup){
-	defer wg.Done()
-	for notfication := range NotificationDataChannel {
-		err := SendNotification(notfication.Message, cfg)
-		if err != nil {
-			logger.Error(err)
-		}
-	}
-}
-
-func SendNotification(message string, cfg *config.Telegram) error {
-	logger.Info("TODO: send notificaiton:", message)
-
-	url := fmt.Sprintf("https://api.telegram.org/bot%s/sendMessage", cfg.Token)
-
-	payload := map[string]string{
-		"chat_id": cfg.ChatID,
-		"text":    message,
-	}
-
-	jsonPayload, err := json.Marshal(payload)
-	if err != nil {
-		return fmt.Errorf("failed to marshal payload: %w", err)
-	}
-
-	resp, err := http.Post(url, "application/json", bytes.NewBuffer(jsonPayload))
-	if err != nil {
-		return fmt.Errorf("failed to send request: %w", err)
-	}
+func SendContext(ctx context.Context,message string,cfg *config.Telegram) error {
+	payload,err:=json.Marshal(map[string]string{"chat_id":cfg.ChatID,"text":message})
+	if err!=nil { return err }
+	req,err:=http.NewRequestWithContext(ctx,http.MethodPost,"https://api.telegram.org/bot"+cfg.Token+"/sendMessage",bytes.NewReader(payload))
+	if err!=nil { return fmt.Errorf("invalid Telegram request") }
+	req.Header.Set("Content-Type","application/json")
+	resp,err:=client.Do(req)
+	if err!=nil { return fmt.Errorf("Telegram request failed") } // Do not log bot-token URLs.
 	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("received non-OK response: %s", resp.Status)
-	}
-
+	if resp.StatusCode!=http.StatusOK { return fmt.Errorf("Telegram returned HTTP %d",resp.StatusCode) }
 	return nil
 }

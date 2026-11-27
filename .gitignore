@@ -1,2 +1,6 @@
 config.json
 app.log
+/server-monitor
+/main
+/go_archive/
+/benchmark.txt

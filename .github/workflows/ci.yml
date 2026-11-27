@@ -1,0 +1,24 @@
+name: Go checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - run: go test -race ./...
+      - run: go build -o server-monitor ./cmd
+      - run: go test ./monitor -run '^$' -bench . -benchmem -count 3 | tee benchmark.txt
+        shell: bash
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monitor-benchmark
+          path: benchmark.txt
