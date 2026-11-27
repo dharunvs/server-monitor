@@ -1,56 +1,50 @@
 # Server Monitor
 
-## Description
+A Go service for monitoring host availability, TCP ports and local systemd services. It persists observations in PostgreSQL and sends optional Telegram alerts on availability transitions.
 
-Server Monitor is a Go application designed to monitor the availability of server, port availability and service status of self and configured servers. It collects real-time data and store the metrics in the database. It notifies through telegram in case of anomalies.
+## Architecture
 
-## Development prerequisites
+```mermaid
+flowchart LR
+  C[JSON configuration] --> S[Periodic scheduler]
+  S --> Q[Bounded work queue]
+  Q --> W[Worker pool]
+  W --> P[ICMP / TCP / systemd probes]
+  W --> DB[(PostgreSQL)]
+  W --> A[Telegram state-change alerts]
+```
 
-- Go (go1.23.4)
-- PostgreSQL
+The scheduler limits concurrent checks, avoids overlapping executions of a single check and stops on process cancellation. Probes and external I/O have bounded timeouts. Local service checks are observational: they do not restart services.
 
-## Local setup
+## Quick start
 
-Download the repo using,
+Requirements: Go 1.23.4 (toolchain declared in go.mod), PostgreSQL, and Linux for systemd/ICMP probes. ICMP may require appropriate OS permissions.
 
 ```bash
 git clone https://github.com/dharunvs/server-monitor.git
+cd server-monitor
+cp sample.config.json config.json
+# Edit config.json with your own database and monitoring targets.
+psql "$DATABASE_URL" -f queries.sql
+go run ./cmd
 ```
 
-(or)
+For a local PostgreSQL instance without TLS only, set `MONITOR_DB_SSLMODE=disable`. Production connections should use appropriate TLS settings, preferably certificate verification. Leave the Telegram token and chat ID empty to disable alerts. Never commit your real config.
+
+## Verification
 
 ```bash
-wget -O server-monitor.zip https://github.com/dharunvs/server-monitor/archive/refs/heads/main.zip
-unzip server-monitor
+go test -race ./...
+go build -o server-monitor ./cmd
+go test ./monitor -run '^$' -bench . -benchmem -count 3
 ```
 
-#### Database
+The CI workflow runs the race detector, builds the executable and uploads benchmark output. The microbenchmark measures an in-process execution with a fake probe and sink; it is not network throughput or production latency.
 
-Create a database or use the `postgres` database.
-Create the `monitoring_data` table use the query in `queries.sql`
+## Scope and trade-offs
 
-#### Configuration
-
-Rename or copy the `sample.config,json` to `config.json`
-Modify the configuration accordingly
-
-#### Run the application
-
-Run the application using
-
-```bash
-go run cmd/main.go
-```
-
-build using
-
-```bash
-go build .
-```
-
-## Future Scope
-
-- Database backup at regular intervals to configured backup servers
-- Database replication checks at regular intervals to configured fallback servers
-- Database restoration
-- Email notification
+- Fixed-size workers bound active checks; saturated queues defer scheduling rather than creating unbounded goroutines.
+- Alerts are deduplicated within a process. Durable alert state and delivery guarantees are future work.
+- Remote service checks, distributed monitoring, retry persistence and retention are not implemented by this runtime.
+- Legacy backup/SSH experiments are not invoked by the monitor. Do not use them in production without a separate security review.
+- This is an engineering project, not a production SLA or security guarantee.

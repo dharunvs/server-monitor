@@ -2,57 +2,46 @@
   "database": {
     "host": "localhost",
     "port": 5432,
-    "user": "<your-database-user>",
-    "password": "<your-database-password>",
-    "database": "<your-database-name>"
+    "user": "monitor",
+    "password": "replace-me",
+    "database": "monitor"
   },
   "monitoring": {
     "servers": [
       {
-        "server_ip": "127.1.0.7",
-        "ports": [5432],
-        "services": ["postgresql"]
-      },
-      {
-        "server_ip": "198.50.124.13",
-        "ports": [5440],
-        "services": ["nginx", "postgresql"]
+        "server_ip": "127.0.0.1",
+        "ports": [
+          5432
+        ],
+        "services": []
       }
     ]
   },
   "self_monitoring": {
-    "enabled": true,
-    "ports": [5432],
-    "services": ["postgresql"]
+    "enabled": false,
+    "ports": [],
+    "services": []
   },
   "backup": {
     "source_database": {
       "host": "localhost",
       "port": 5432,
-      "user": "<your-local-database-user>",
-      "password": "<your-local-database-password>",
-      "database": "<your-local-database-name>"
+      "user": "",
+      "password": "",
+      "database": ""
     },
-    "destination_databases": [
-      {
-        "host": "173.212.237.62",
-        "port": 5440,
-        "user": "<your-remote-database-user>",
-        "password": "<your-remote-database-password>",
-        "database": "<your-remote-database-name>"
-      }
-    ]
+    "destination_databases": []
   },
   "logger": {
     "log_level": "info"
   },
   "notifier": {
     "email": {
-      "recipients": ["admin@example.com"]
+      "recipients": []
     },
     "telegram": {
-      "chat_id": "your-telegram-chat-id",
-      "token": "your-telegram-bot-token"
+      "chat_id": "",
+      "token": ""
     }
   },
   "interval": {
